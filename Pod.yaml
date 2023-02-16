@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+ name: mavenwebappod
+spec:
+  containers:
+  - name: mavenwebappcontainer
+    image: sumandevops1/maven-web-application:1
+    ports:
+    - containerPort: 8080
